@@ -31,6 +31,16 @@
                             <a class="nav-link" href="#">FEATURES</a>
                             <a class="nav-link" href="#">PRICING</a>
                             <a class="nav-link">CONTACT</a>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a class="nav-link">@User.Identity.Name</a>
+                                <a class="nav-link btn btn-sm btn-danger" asp-controller="Account" asp-action="Logout">Logout</a>
+                            }
+                            else
+                            {
+                                <a class="nav-link btn btn-sm btn-info" asp-controller="Account" asp-action="SignIn">Login</a>
+                                <a class="nav-link btn btn-sm btn-warning" asp-controller="Account" asp-action="Register">Register</a>
+                            }
                         </div>
                     </div>
                 </div>

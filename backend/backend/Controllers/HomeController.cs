@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using backend.DAL;
+using backend.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +10,18 @@ namespace backend.Controllers
 {
     public class HomeController : Controller
     {
+        private AppDbContext _context { get; }
+        public HomeController(AppDbContext context)
+        {
+            _context = context;
+        }
         public IActionResult Index()
         {
-            return View();
+            HomeViewModel home = new HomeViewModel
+            {
+                Services = _context.Services.ToList()
+            };
+            return View(home);
         }
     }
 }

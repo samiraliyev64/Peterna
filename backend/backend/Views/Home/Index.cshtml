@@ -1,4 +1,4 @@
-﻿
+﻿@model HomeViewModel
 @{
     ViewData["Title"] = "Index";
 }
@@ -34,30 +34,17 @@
                 </div>
             </div>
             <div class="row services-info">
-                <div class="col-lg-4 services-info-item">
-                    <div class="item-inner">
-                        <i class="fa-solid fa-desktop"></i>
-                        <h4>Sure Quique Menu</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                @foreach (var service in Model.Services)
+                {
+                    <div class="col-lg-4 services-info-item">
+                        <div class="item-inner">
+                            <img src="~/images/@service.Url" alt="Alternate Text" />
+                            <h4>@service.Title</h4>
+                            <p>@service.Subtitle</p>
+                            <p>@service.Description</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 services-info-item">
-                    <div class="item-inner">
-                        <i class="fa-solid fa-flask"></i>
-                        <h4>100% Free Responsive</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 services-info-item">
-                    <div class="item-inner">
-                        <i class="fa-solid fa-credit-card"></i>
-                        <h4>Clean & Customizable</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
+                }
             </div>
             <div class="row services-end-summary">
                 <h3>Lorem ipsum dolor sit amet</h3>

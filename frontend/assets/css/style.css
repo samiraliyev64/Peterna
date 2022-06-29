@@ -95,9 +95,9 @@
   padding: 40px;
 }
 
-.item-inner i {
-  font-size: 80px;
-  color: white;
+.item-inner img {
+  width: 100px;
+  height: 100px;
 }
 
 .item-inner h4 {
@@ -308,4 +308,3 @@ footer p {
   right: 3%;
   color: white;
 }
-/*# sourceMappingURL=style.css.map */
