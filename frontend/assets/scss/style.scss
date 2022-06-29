@@ -1,0 +1,275 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.myNav{
+    background-color: black;
+}
+
+.navbar-brand{
+    position: absolute;
+    color:white !important;
+    padding:12px !important;
+    align-items: center;
+    font-size:30px !important;
+}
+
+.nav-link{
+    color:white !important;
+    padding:20px !important;
+}
+@media only screen and (max-width: 995px) {
+    .navbar-brand{
+        position: absolute;
+        padding:5px 0 !important;
+        
+    }
+  }
+/* Get Page Done */
+#get-page-done{
+    background-color: rgb(28, 128, 168);
+    color:white;
+    text-align: center;
+    padding-top:70px;
+    padding-bottom:150px;
+}
+
+.get-page-done h1{
+    font-size:80px;
+}
+.get-page-done h4{
+    padding-top:20px;
+    font-size:40px;
+}
+.get-page-done p{
+    font-size:20px;
+    padding-top:20px;
+}
+.get-page-done button{
+    background-color: rgb(206, 89, 108);
+    border: 1px solid rgb(206, 89, 108);
+    color:white;
+    padding:7px 20px;
+    font-size:20px;
+    margin-top:30px;
+}
+.get-page-done button:hover{
+    background-color: rgb(218, 135, 149);
+}
+
+/* Services */
+#services{
+    padding-top:100px;
+}
+.services h1{
+    color: rgb(28, 128, 168);
+}
+.services-summary{
+    padding-top:40px;
+    padding-bottom:60px;
+}
+
+.services-info{
+    text-align: center;
+    color:white;
+}
+
+.services-info-item {
+    padding: 0 5px 0 5px;
+}
+.services-info-item .item-inner {
+    background-color: rgb(28, 128, 168);
+    padding:40px;
+}
+.item-inner i{
+    font-size:80px;
+    color: white;
+}
+
+.item-inner h4{
+    padding-top:40px;
+}
+.item-inner p{
+    padding-top:10px;
+}
+.services-end-summary{
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+
+/* Wall Street */
+#wall-street{
+    background-color: rgb(28, 128, 168);
+    color: white;
+    .wall-street-summary{
+        position: relative;
+        text-align: center;
+        padding: 20px 0;
+        left:7%;
+    }
+    .wall-street-item{
+        h1{
+            font-size:60px;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+}
+
+/* Services */
+#plan{
+    padding-top:100px;
+}
+.plan h1{
+    color: rgb(28, 128, 168);
+}
+.plan-summary{
+    padding-top:40px;
+    padding-bottom:60px;
+}
+
+.plan-info{
+    text-align: center;
+    color:white;
+}
+
+.plan-info-item .item-inner {
+    background-color: rgb(28, 128, 168);
+}
+
+.plan-end-summary{
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+
+.plan-item-inner{
+    background-color: #cfcdcd;
+    padding-bottom: 20px;
+    #basic{
+        background-color: black;
+        color:white;
+        font-size:25px;
+    }
+    ul{
+        background-color: #cfcdcd;
+        margin-top:-17px;
+        text-align: center;
+        li{
+            list-style-type: none;
+            padding-top:30px;
+            font-size:25px;
+            position: relative;
+            left: -5%;
+            color:rgb(14, 11, 11);
+            span{
+                color:rgb(53, 51, 51);
+            }
+        }
+    }
+    #price{
+        height:110px;
+        background-color: green;
+        font-size:60px;
+        margin-top:-16px;
+        text-align: center;
+    }
+    #read{
+        height:40px;
+        background-color: rgb(192, 81, 81);
+        font-size:20px;
+        &:hover{
+            cursor: pointer;
+            background-color: red;
+        }
+
+    }
+    #read-second{
+        background-color: rgb(26, 84, 150);
+        height:40px;
+        font-size:20px;
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(49, 49, 161);
+        }
+    }
+    #read-third{
+        background-color: rgb(14, 173, 14);
+        height:40px;
+        font-size:20px;
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(20, 121, 20);
+        }
+    }
+}
+
+
+/* Peterna Info */
+#peterna-info{
+    margin-top:50px;
+    background-color: rgb(28, 128, 168);
+    color: white;
+    .peterna-info-summary{
+        position: relative;
+        text-align: center;
+        padding: 20px 0;
+        left:7%;
+    }
+    .peterna-info-item{
+        h1{
+            font-size:60px;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+}
+
+/* Contact */
+#contact{
+    padding-top:100px;
+}
+.contact h1{
+    color: rgb(28, 128, 168);
+}
+.contact-summary{
+    padding-top:40px;
+    padding-bottom:60px;
+}
+
+.contact-info{
+    text-align: center;
+    color:white;
+}
+form{
+    .email-password{
+        display: flex;
+        gap:5px;
+    }
+    
+    textarea{
+        margin-top:10px;
+        width: 202%;
+        height:100px;
+    }
+}
+
+//Footer
+footer{
+    margin-top:100px;
+    margin-bottom:200px;
+    background-color: black;
+    .license{
+        display: flex;
+        justify-content: end;
+    }
+    p{
+        position: relative;
+        right:3%;
+        color:white;
+    }
+    padding:20px 0;
+}

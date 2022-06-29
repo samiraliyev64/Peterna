@@ -1,0 +1,311 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.myNav {
+  background-color: black;
+}
+
+.navbar-brand {
+  position: absolute;
+  color: white !important;
+  padding: 12px !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px !important;
+}
+
+.nav-link {
+  color: white !important;
+  padding: 20px !important;
+}
+
+@media only screen and (max-width: 995px) {
+  .navbar-brand {
+    position: absolute;
+    padding: 5px 0 !important;
+  }
+}
+
+/* Get Page Done */
+#get-page-done {
+  background-color: #1c80a8;
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 150px;
+}
+
+.get-page-done h1 {
+  font-size: 80px;
+}
+
+.get-page-done h4 {
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.get-page-done p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.get-page-done button {
+  background-color: #ce596c;
+  border: 1px solid #ce596c;
+  color: white;
+  padding: 7px 20px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.get-page-done button:hover {
+  background-color: #da8795;
+}
+
+/* Services */
+#services {
+  padding-top: 100px;
+}
+
+.services h1 {
+  color: #1c80a8;
+}
+
+.services-summary {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.services-info {
+  text-align: center;
+  color: white;
+}
+
+.services-info-item {
+  padding: 0 5px 0 5px;
+}
+
+.services-info-item .item-inner {
+  background-color: #1c80a8;
+  padding: 40px;
+}
+
+.item-inner i {
+  font-size: 80px;
+  color: white;
+}
+
+.item-inner h4 {
+  padding-top: 40px;
+}
+
+.item-inner p {
+  padding-top: 10px;
+}
+
+.services-end-summary {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Wall Street */
+#wall-street {
+  background-color: #1c80a8;
+  color: white;
+}
+
+#wall-street .wall-street-summary {
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  left: 7%;
+}
+
+#wall-street .wall-street-item h1 {
+  font-size: 60px;
+}
+
+#wall-street .wall-street-item p {
+  font-size: 30px;
+}
+
+/* Services */
+#plan {
+  padding-top: 100px;
+}
+
+.plan h1 {
+  color: #1c80a8;
+}
+
+.plan-summary {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.plan-info {
+  text-align: center;
+  color: white;
+}
+
+.plan-info-item .item-inner {
+  background-color: #1c80a8;
+}
+
+.plan-end-summary {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.plan-item-inner {
+  background-color: #cfcdcd;
+  padding-bottom: 20px;
+}
+
+.plan-item-inner #basic {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+.plan-item-inner ul {
+  background-color: #cfcdcd;
+  margin-top: -17px;
+  text-align: center;
+}
+
+.plan-item-inner ul li {
+  list-style-type: none;
+  padding-top: 30px;
+  font-size: 25px;
+  position: relative;
+  left: -5%;
+  color: #0e0b0b;
+}
+
+.plan-item-inner ul li span {
+  color: #353333;
+}
+
+.plan-item-inner #price {
+  height: 110px;
+  background-color: green;
+  font-size: 60px;
+  margin-top: -16px;
+  text-align: center;
+}
+
+.plan-item-inner #read {
+  height: 40px;
+  background-color: #c05151;
+  font-size: 20px;
+}
+
+.plan-item-inner #read:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.plan-item-inner #read-second {
+  background-color: #1a5496;
+  height: 40px;
+  font-size: 20px;
+}
+
+.plan-item-inner #read-second:hover {
+  cursor: pointer;
+  background-color: #3131a1;
+}
+
+.plan-item-inner #read-third {
+  background-color: #0ead0e;
+  height: 40px;
+  font-size: 20px;
+}
+
+.plan-item-inner #read-third:hover {
+  cursor: pointer;
+  background-color: #147914;
+}
+
+/* Peterna Info */
+#peterna-info {
+  margin-top: 50px;
+  background-color: #1c80a8;
+  color: white;
+}
+
+#peterna-info .peterna-info-summary {
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  left: 7%;
+}
+
+#peterna-info .peterna-info-item h1 {
+  font-size: 60px;
+}
+
+#peterna-info .peterna-info-item p {
+  font-size: 30px;
+}
+
+/* Contact */
+#contact {
+  padding-top: 100px;
+}
+
+.contact h1 {
+  color: #1c80a8;
+}
+
+.contact-summary {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.contact-info {
+  text-align: center;
+  color: white;
+}
+
+form .email-password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+form textarea {
+  margin-top: 10px;
+  width: 202%;
+  height: 100px;
+}
+
+footer {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  background-color: black;
+  padding: 20px 0;
+}
+
+footer .license {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+footer p {
+  position: relative;
+  right: 3%;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
